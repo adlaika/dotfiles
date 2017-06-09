@@ -1,0 +1,152 @@
+"*":
+  "advanced-open-file":
+    createDirectories: true
+    fuzzyMatch: true
+  "atom-beautify":
+    apex: {}
+    arduino: {}
+    c: {}
+    cfml: {}
+    coffeescript: {}
+    cpp: {}
+    cs: {}
+    css: {}
+    d: {}
+    ejs: {}
+    erb: {}
+    fortran: {}
+    general:
+      _analyticsUserId: "73d9308e-3cad-4661-84fd-867fa9a70028"
+    gherkin: {}
+    handlebars: {}
+    html: {}
+    jade: {}
+    java: {}
+    js: {}
+    json: {}
+    jsx: {}
+    latex: {}
+    less: {}
+    marko: {}
+    mustache: {}
+    objectivec: {}
+    pawn: {}
+    perl: {}
+    php: {}
+    python: {}
+    riot: {}
+    ruby: {}
+    rust: {}
+    sass: {}
+    scss: {}
+    spacebars: {}
+    sql: {}
+    svg: {}
+    swig: {}
+    tss: {}
+    twig: {}
+    typescript: {}
+    vala: {}
+    visualforce: {}
+    xml: {}
+    xtemplate: {}
+  core:
+    customFileTypes:
+      "source.shell": [
+        "shinc"
+      ]
+    disabledPackages: [
+      "react"
+      "vim-surround"
+    ]
+    telemetryConsent: "limited"
+    themes: [
+      "one-dark-ui"
+      "solarized-dark-syntax"
+    ]
+  editor:
+    autoIndentOnPaste: false
+    fontFamily: "Menlo"
+    invisibles: {}
+    showIndentGuide: true
+    showInvisibles: true
+    softWrapHangingIndent: 2
+  "exception-reporting":
+    userId: "f969f944-f7d5-0019-24ed-abdd511e3e2c"
+  "haskell-ghc-mod":
+    additionalPathDirectories: [
+      "/Users/marnold/.local/bin/ghc-mod"
+      "/Users/marnold/.local/bin/ghc-modi"
+    ]
+    debug: true
+    onSelectionShow: "typeAndInfo"
+    showTypeOnSelection: true
+  "ide-haskell":
+    onCursorMove: "Show Tooltip"
+    stylishHaskellPath: "/Users/marnold/.local/bin/stylish-haskell"
+  linter: {}
+  "linter-eslint":
+    fixOnSave: true
+  "linter-js-cloudformation-yaml": {}
+  "linter-puppet-lint":
+    automaticFix: true
+    oldVersion: false
+  "linter-ui-default":
+    showPanel: true
+  minimap: {}
+  tabs:
+    enableVcsColoring: true
+    usePreviewTabs: true
+  "terminal-plus":
+    core: {}
+    style:
+      theme: "dracula"
+    toggles:
+      autoClose: true
+  "tree-view":
+    hideVcsIgnoredFiles: true
+  "vim-mode":
+    useClipboardAsDefaultRegister: true
+    useSmartcaseForSearch: true
+  "vim-surround": {}
+  welcome:
+    showOnStartup: false
+".c2hs.source":
+  editor:
+    autoIndentOnPaste: false
+    showIndentGuide: true
+    showInvisibles: false
+    softWrapHangingIndent: 2
+".cabal.source":
+  editor:
+    showIndentGuide: true
+    softWrapHangingIndent: 2
+".haskell.hint":
+  editor:
+    showIndentGuide: true
+    softWrapHangingIndent: 2
+".haskell.hint.message":
+  editor:
+    softWrapHangingIndent: 2
+".haskell.hint.type":
+  editor:
+    softWrapHangingIndent: 2
+".haskell.latex.tex.text":
+  editor:
+    softWrapHangingIndent: 2
+".haskell.source":
+  editor:
+    showIndentGuide: true
+    softWrapHangingIndent: 2
+".hsc2hs.source":
+  editor:
+    softWrapHangingIndent: 2
+".json.source":
+  editor:
+    softWrapHangingIndent: 2
+".shell-session.text":
+  editor:
+    softWrapHangingIndent: 2
+".shell.source":
+  editor:
+    softWrapHangingIndent: 2
