@@ -9,8 +9,6 @@ set nocompatible
 set clipboard=unnamed
 " Enhance command-line completion
 set wildmenu
-" Allow cursor keys in insert mode
-set esckeys
 " Allow backspace in insert mode
 set backspace=indent,eol,start
 " Optimize for fast terminal connections
@@ -108,7 +106,6 @@ set expandtab
 set incsearch
 set mouse=a
 set history=1000
-set clipboard=unnamedplus,autoselect
 set completeopt=menuone,menu,longest
 set wildignore+=*\\tmp\\*,*.swp,*.swo,*.zip,.git,.cabal-sandbox
 set wildmode=longest,list,full
