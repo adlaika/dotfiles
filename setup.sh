@@ -8,6 +8,8 @@ script_path="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 files=$(ls -a | grep "^\.[a-z]" | grep -v "^\.git")
 files+=" $(ls -a | grep *plist*)"
 
+touch "$script_path/.secrets"
+
 for file in $files
 do
 	file_origin="$script_path/$file"
