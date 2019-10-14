@@ -1,6 +1,3 @@
-# export PATH="/usr/local/lib/ruby/gems/2.5.0/bin:$HOME/Library/Haskell/bin:$HOME/.local/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:$PATH:$HOME/software/bin"
-set -o vi
-
 source $(brew --prefix)/share/antigen/antigen.zsh
 
 # Load the oh-my-zsh's library.
@@ -12,6 +9,8 @@ antigen bundle heroku
 antigen bundle pip
 antigen bundle lein
 antigen bundle command-not-found
+antigen bundle zsh-users/zsh-autosuggestions
+antigen bundle zsh-users/zsh-completions
 
 # Syntax highlighting bundle.
 antigen bundle zsh-users/zsh-syntax-highlighting
@@ -23,12 +22,7 @@ export DEFAULT_USER=marnold
 # Tell antigen that you're done.
 antigen apply
 
-# User configuration
-# completions
-fpath=(/usr/local/share/zsh-completions $fpath)
-
 source ~/.aliases
 source ~/.env
 source ~/.secrets
-
-source "/usr/local/opt/nvm/nvm.sh"
+source ~/.init
