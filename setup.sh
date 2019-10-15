@@ -5,7 +5,10 @@ script_path="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 # install stuff
 brew cask install lastpass intellij-idea visual-studio-code 
-brew install zsh git antigen nvm awscli haskell-stack rbenv
+brew install zsh git antigen nvm awscli haskell-stack rbenv postgres
+
+# start services and add to startup
+brew services start postgresql
 
 # create empty .secrets file if it hasn't already been made
 touch "$script_path/.secrets"
