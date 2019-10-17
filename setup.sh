@@ -14,7 +14,7 @@ brew tap homebrew/cask-versions
 
 # install stuff
 brew cask install java lastpass intellij-idea visual-studio-code iterm2 firefox google-chrome 
-brew install zsh git antigen nvm awscli haskell-stack rbenv postgres scala bash coreutils gti maven node tree wget graphviz openssl python@2 vim watch bash-completion jq
+brew install zsh git antigen nvm awscli haskell-stack rbenv postgres scala bash coreutils gti maven node tree wget graphviz openssl python@2 vim watch bash-completion jq yarn
 
 # start services and add to startup
 brew services start postgresql
