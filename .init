@@ -3,3 +3,6 @@ eval "$(rbenv init -)"
 
 # node version manager
 source "/usr/local/opt/nvm/nvm.sh"
+
+# aws functions
+source "/Users/marnold/.local/aws-functions.sh"
