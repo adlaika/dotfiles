@@ -12,8 +12,13 @@ fi
 # enable brew cask
 brew tap homebrew/cask-versions
 
+# update and upgrade software on subsequent runs of this script
+brew update
+brew upgrade
+brew cask upgrade
+
 # install stuff
-brew cask install java lastpass intellij-idea visual-studio-code iterm2 firefox google-chrome 
+brew cask install java lastpass intellij-idea visual-studio-code iterm2 google-chrome firefox 
 brew install zsh git antigen nvm awscli haskell-stack rbenv postgres scala bash coreutils gti maven node tree wget graphviz openssl python@2 vim watch bash-completion jq yarn
 
 # start services and add to startup
