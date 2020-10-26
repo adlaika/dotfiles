@@ -15,7 +15,7 @@ brew tap homebrew/cask-versions
 # update and upgrade software on subsequent runs of this script
 brew update
 brew upgrade
-brew cask upgrade
+brew upgrade --cask
 
 # install stuff
 brew cask install java lastpass intellij-idea visual-studio-code iterm2 google-chrome firefox 
