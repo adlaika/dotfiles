@@ -1411,7 +1411,7 @@
 			<key>Window Type</key>
 			<integer>0</integer>
 			<key>Working Directory</key>
-			<string>/Users/marnold</string>
+			<string>/Users/micarnol</string>
 		</dict>
 	</array>
 	<key>NoSyncAllAppVersions</key>
@@ -2196,7 +2196,7 @@
 		</dict>
 	</dict>
 	<key>PrefsCustomFolder</key>
-	<string>/Users/marnold/gits/dotfiles</string>
+	<string>/Users/micarnol/gits/dotfiles</string>
 	<key>Print In Black And White</key>
 	<true/>
 	<key>PromptOnQuit</key>

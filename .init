@@ -5,4 +5,4 @@ eval "$(rbenv init -)"
 source "/usr/local/opt/nvm/nvm.sh"
 
 # aws functions
-source "/Users/marnold/.local/aws-functions.sh"
+source "/Users/micarnol/.local/aws-functions.sh"

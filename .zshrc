@@ -7,8 +7,8 @@ fi
 
 source $(brew --prefix)/share/antigen/antigen.zsh
 
-# Load the oh-my-zsh's library.
-antigen use oh-my-zsh
+# Load the oh-my-zsh library.
+antigen use ohmyzsh/ohmyzsh
 
 # Bundles from the default repo (robbyrussell's oh-my-zsh).
 antigen bundle git
@@ -24,7 +24,7 @@ antigen bundle zsh-users/zsh-syntax-highlighting
 
 # Load the theme.
 antigen theme romkatv/powerlevel10k
-export DEFAULT_USER=marnold
+export DEFAULT_USER=micarnol
 
 # Tell antigen that you're done.
 antigen apply
