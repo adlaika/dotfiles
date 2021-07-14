@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+# CJ specific
+alias jump="ssh marnold@jump.cj.dev"
+
 # Easier navigation: .., ..., ...., ....., ~ and -
 alias ..="cd .."
 alias ...="cd ../.."

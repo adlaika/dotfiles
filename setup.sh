@@ -46,3 +46,6 @@ if [[ "$DEFAULT_SHELL" != *"/zsh" ]]; then
 	# sudo echo "$(which zsh)" >> /etc/shells
 	chsh -s "$ZSH_LOCATION"
 fi
+
+# install ghcup
+curl --proto '=https' --tlsv1.2 -sSf https://get-ghcup.haskell.org | sh
