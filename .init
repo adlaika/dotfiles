@@ -1,8 +1,0 @@
-# i dunno, something for ruby to work
-eval "$(rbenv init -)"
-
-# node version manager
-source "/usr/local/opt/nvm/nvm.sh"
-
-# aws functions
-source "/Users/micarnol/.local/aws-functions.sh"

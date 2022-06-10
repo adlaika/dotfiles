@@ -1,0 +1,7 @@
+==> Formulae
+awscli		c-ares		gdbm		icu4c		krb5		libuv		llvm@12		mpfr		oniguruma	perl		python@3.9	six		xz
+berkeley-db	ca-certificates	gettext		isl		libmpc		libyaml		lua		ncurses		openjdk		postgresql	readline	sqlite		zlib
+brotli		gcc		gmp		jq		libnghttp2	llvm		mpdecimal	node		openssl@1.1	python@3.10	ruby		vim		zstd
+
+==> Casks
+discord			iterm2			qbittorrent		slack			visual-studio-code
